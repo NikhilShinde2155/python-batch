@@ -1,0 +1,96 @@
+print("Hello World")
+print("Welcome at streamline")
+
+
+# Static & Dynamic:-
+
+# int a = 13;   static
+
+# num1 = 20     dynamic
+# num2 = 30
+# print(num1 + num2)
+
+
+# Comments:-
+# Types:-
+        # 1. Single Line Comment(#)
+        # 2. Multi Line Comment("""  """)('''  ''')
+
+
+# 1. Single Line Comment
+# print("hello welcome at streamline")
+
+# 2. Multi-Line Comment
+# Way 1('''  ''')
+'''print("Hello World")
+print("Nikhil Shinde")
+print("Python")'''
+
+# Way 2("""  """)
+"""print("Hello World")
+print("Nikhil Shinde")
+print("Python")"""
+
+
+# Indentation:-
+#      min space 1
+#      max space 4 or 1
+
+# def indentation():
+#    num1 = 1
+#    num2 = 2
+
+for i in range(1,199):
+    print(i)
+
+
+# Variable:-
+#     variable is a one type of container where we can store a value.
+
+
+# write a program for addition of two numbers? 
+# _num1 = 30
+# _num2 = 70 
+# print(_num + _num2)
+ 
+
+# Rule For Defining the variable.
+# 1.variable name always start with character
+    # name = "nikhil"
+
+# 2.variable name can't start with number
+    # 123 = 9876
+
+# 3.It can be aplphanumeric
+    # abc123 = 987654321
+
+# 4.we can use (_) underscore for defining a variable
+    # var_name = 9765
+    # first_name = "nikhil"
+
+# 5. we can use (_) at starting.
+    # _var = "rahul"
+     
+# 6. no character limit.
+#   sdfghjklqwertyuiopzxcvbnm =""
+
+# variable_98654321 = ""          
+
+
+# Keywords:-
+
+# def
+# pass
+# for
+# in
+# range
+# import
+# as
+
+#keyword Module
+
+import keyword as kw
+keywords = kw.kwlist
+print(keywords)
+print(len(keywords))
+
